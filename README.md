@@ -1,4 +1,4 @@
-# Multi-Time Attention Netwroks (mTANs)
+# Multi-Time Attention Networks (mTANs)
 This repository contains the PyTorch implementation for the paper [Multi-Time Attention Networks for Irregularly Sampled Time Series](https://openreview.net/forum?id=4c0J6lwQ4_) by [Satya Narayan Shukla](https://satyanshukla.github.io/) and [Benjamin M. Marlin](https://people.cs.umass.edu/~marlin). This paper will be presented at the [International Conference on Learning Representations](https://iclr.cc/), 2021. 
 
 ## Requirements
