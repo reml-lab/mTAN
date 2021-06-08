@@ -52,7 +52,9 @@ python3 tanenc_classification.py --niters 1000 --lr 0.001 --batch-size 256 --rec
 </p>
 
 ## Classification Results
-![Classification Results](imgs/classification.png)
+<p align="center">
+  <img width="600" src="imgs/classification.png">
+</p>
 
 
 ## Reference
