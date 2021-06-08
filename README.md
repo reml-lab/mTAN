@@ -7,6 +7,9 @@ This repository contains the PyTorch implementation for the paper [Multi-Time At
 ## Requirements
 The code requires Python 3.7 or later. The file [requirements.txt](requirements.txt) contains the full list of
 required Python modules.
+```bash
+pip3 install -r requirements.txt
+```
 
 ## Training and Evaluation
 
