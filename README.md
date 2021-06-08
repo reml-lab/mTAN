@@ -44,8 +44,9 @@ python3 tanenc_classification.py --niters 1000 --lr 0.001 --batch-size 256 --rec
 ```
 
 ## Interpolation Results
-<img align="center" src="imgs/interpolation.png">
-![Interpolation Results](imgs/interpolation.png)
+<p align="center">
+  <img src="imgs/interpolation.png">
+</p>
 
 ## Classification Results
 ![Classification Results](imgs/classification.png)
