@@ -1,11 +1,11 @@
 # Multi-Time Attention Networks (mTANs)
-This repository contains the PyTorch implementation for the paper [Multi-Time Attention Networks for Irregularly Sampled Time Series](https://openreview.net/forum?id=4c0J6lwQ4_) by [Satya Narayan Shukla](https://satyanshukla.github.io/) and [Benjamin M. Marlin](https://people.cs.umass.edu/~marlin). This paper will be presented at the [International Conference on Learning Representations](https://iclr.cc/), 2021. 
+This repository contains the PyTorch implementation for the paper [Multi-Time Attention Networks for Irregularly Sampled Time Series](https://openreview.net/forum?id=4c0J6lwQ4_) by [Satya Narayan Shukla](https://satyanshukla.github.io/) and [Benjamin M. Marlin](https://people.cs.umass.edu/~marlin). This work has been accepted at the [International Conference on Learning Representations](https://iclr.cc/), 2021. (images/mTAND_v2.pdf)
 
 ## Requirements
 The code requires Python 3.7 or later. The file [requirements.txt](requirements.txt) contains the full list of
 required Python modules.
 
-## Usage
+## Training and Evaluation
 
 1. Interpolation Task on Toy Dataset
 ```bash
@@ -42,6 +42,14 @@ python3 tanenc_classification.py --niters 200 --lr 0.0001 --batch-size 256 --rec
 ```bash
 python3 tanenc_classification.py --niters 1000 --lr 0.001 --batch-size 256 --rec-hidden 512 --enc mtan_enc_activity  --quantization 0.016 --save 1 --classif --num-heads 1 --learn-emb --dataset activity --seed 0 --classify-pertp
 ```
+
+## Interpolation Results
+[images/true_interpolation.pdf]
+
+## Classification Results
+[images/classification.png]
+
+
 ## Reference
 ```bash
 @inproceedings{
