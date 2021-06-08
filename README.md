@@ -1,5 +1,8 @@
 # Multi-Time Attention Networks (mTANs)
-This repository contains the PyTorch implementation for the paper [Multi-Time Attention Networks for Irregularly Sampled Time Series](https://openreview.net/forum?id=4c0J6lwQ4_) by [Satya Narayan Shukla](https://satyanshukla.github.io/) and [Benjamin M. Marlin](https://people.cs.umass.edu/~marlin). This work has been accepted at the [International Conference on Learning Representations](https://iclr.cc/), 2021. ![](imgs/mTAND_v2.png)
+This repository contains the PyTorch implementation for the paper [Multi-Time Attention Networks for Irregularly Sampled Time Series](https://openreview.net/forum?id=4c0J6lwQ4_) by [Satya Narayan Shukla](https://satyanshukla.github.io/) and [Benjamin M. Marlin](https://people.cs.umass.edu/~marlin). This work has been accepted at the [International Conference on Learning Representations](https://iclr.cc/), 2021. 
+<p align="center">
+  <img width="600" src="imgs/mTAND_v2.png">
+</p>
 
 ## Requirements
 The code requires Python 3.7 or later. The file [requirements.txt](requirements.txt) contains the full list of
