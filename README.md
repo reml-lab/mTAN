@@ -47,11 +47,13 @@ python3 tanenc_classification.py --niters 1000 --lr 0.001 --batch-size 256 --rec
 ```
 
 ## Interpolation Results
+Interpolation performance on PhysioNet with varying percent of observed time points:
 <p align="center">
   <img src="imgs/interpolation.png">
 </p>
 
 ## Classification Results
+Classification performance on PhysioNet, MIMIC-III and Human activity dataset, and time per epoch in minutes for all the methods on PhysioNet.
 <p align="center">
   <img width="600" src="imgs/classification.png">
 </p>
